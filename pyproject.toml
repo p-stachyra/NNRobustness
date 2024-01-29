@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "visualizing-gradient-descent"
+version = "0.1.0"
+description = "Experimentation for explainability of a neural network."
+authors = ["Piotr Stachyra"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.1.2"
+matplotlib = "^3.8.2"
+numpy = "^1.26.3"
+torchvision = "^0.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
